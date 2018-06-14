@@ -1,0 +1,4 @@
+CREATE DATABASE bamazon_db
+USE bamazon_db
+CREATE TABLE products ( id INTEGER(11) AUTO_INCREMENT NOT NULL, product_name VARCHAR(100) NOT NULL, department VARCHAR(100), price FLOAT(15,2), stock_quantity INTEGER(11), PRIMARY KEY (id) )
+INSERT INTO products (product_name, department, price, stock_quantity) VALUES ('iPhone', 'Electronics', 1000, 100), ('Earbuds', 'Electronics', 50, 100), ('T-Shirt','Clothing', 25, 10), ('Shorts','Clothing', 30, 10), ('Refridgerator','Appliances', 1500, 5), ('Microwave','Appliances', 200, 10), ('Amazon Echo','Electronics', 250, 25), ('Tiki Torches','Outdoors', 15, 100), ('Bug Spray','Outdoors', 5, 200), ('Starry Night','Art',1000000000, 1)
